@@ -1,21 +1,23 @@
-# React + TypeScript + Vite + shadcn/ui
+# Devboard
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+A Kanban board app built with React and TypeScript.
 
-## Adding components
+## Features
 
-To add components to your app, run the following command:
+- Create, rename and delete boards
+- Add, edit and delete tasks with description, assignee and deadline
+- Rename columns
+- Drag and drop tasks between columns (To Do, In Progress, Done)
+- Editable profile name
+- Data saved in the browser (localStorage)
 
-```bash
-npx shadcn@latest add button
+## Tech stack
+
+React · TypeScript · Vite · Tailwind CSS · shadcn/ui · React Router
+
+## Run locally
+
 ```
-
-This will place the ui components in the `src/components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
+npm install
+npm run dev
 ```
