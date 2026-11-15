@@ -21,3 +21,5 @@ React · TypeScript · Vite · Tailwind CSS · shadcn/ui · React Router
 npm install
 npm run dev
 ```
+
+**Live demo:** https://devboard-phi-jade.vercel.app
